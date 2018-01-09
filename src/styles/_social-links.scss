@@ -1,0 +1,13 @@
+.c-social-links {
+  display: block;
+}
+
+.c-social-links__item {
+  color: inherit;
+  font-size: 2rem;
+  padding: 20px;
+
+  &:hover {
+    color: lighten($gray, 20%);
+  }
+}

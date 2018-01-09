@@ -1,0 +1,17 @@
+$socicon-fonts-src: '~socicon-sass/dist/fonts';
+
+// BASE
+@import '~normalize-scss';
+@import 'base';
+@import 'utilities';
+
+// layouts
+@import 'layout';
+
+// modules
+@import '~socicon-sass';
+@import 'social-links';
+@import 'home';
+
+// theme
+@import 'theme';
