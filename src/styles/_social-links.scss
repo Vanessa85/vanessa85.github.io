@@ -4,10 +4,10 @@
 
 .c-social-links__item {
   color: inherit;
-  font-size: 2rem;
-  padding: 20px;
+  font-size: 1.8rem;
+  padding: 15px;
 
   &:hover {
-    color: lighten($gray, 20%);
+    color: lighten($gray, 25%);
   }
 }
