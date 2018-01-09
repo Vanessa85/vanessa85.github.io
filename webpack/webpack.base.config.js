@@ -20,7 +20,6 @@ const base = {
   },
   devServer: {
     port: 4000,
-    host: '192.168.0.15',
     contentBase: paths.appPublic
   },
   module: {
