@@ -53,7 +53,7 @@ const base = {
     }),
     new FaviconsWebpackPlugin({
       logo: path.join(paths.appPublic, 'favicon.png'),
-      prefix: 'static/icons-[hash]',
+      prefix: 'static/icons-[hash]/',
       persistentCache: true,
       inject: true,
       icons: {
